@@ -1,0 +1,95 @@
+.main-image {
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fres.klook.com%2Fimage%2Fupload%2FMobile%2FCity%2Fswox6wjsl5ndvkv5jvum.jpg&imgrefurl=https%3A%2F%2Fwww.klook.com%2Fen-US%2Fcity%2F107-paris-things-to-do%2F&tbnid=qWJtNgw_RK6NxM&vet=12ahUKEwiCusW249f9AhWF4MkDHVqiA6oQMygGegUIARDqAQ..i&docid=2PUpZ1-vS_XkyM&w=5368&h=3020&q=paris&ved=2ahUKEwiCusW249f9AhWF4MkDHVqiA6oQMygGegUIARDqAQ");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.main-image h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.main-image p {
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+.slideshow {
+    display: block;
+    width: 100%;
+    height: auto;
+    text-align: center;
+    margin: auto;
+  }
+
+
+.section {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.section h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section li {
+    background-color: #ffcc00;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section li:hover {
+    background-color: #ff9933;
+}

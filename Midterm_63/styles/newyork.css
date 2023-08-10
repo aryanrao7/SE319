@@ -1,0 +1,86 @@
+.main-image {
+    background-image: url("https://www.google.com/imgres?imgurl=https%3A%2F%2Fmedia.cntraveler.com%2Fphotos%2F63483e15ef943eff59de603a%2F3%3A4%2Fw_1500%2Ch_2000%2Cc_limit%2FNew%2520York%2520City_GettyImages-1347979016.jpg&imgrefurl=https%3A%2F%2Fwww.cntraveler.com%2Fgallery%2Fbest-things-to-do-in-new-york&tbnid=1Lquk9QKRu7pzM&vet=12ahUKEwiKzfKh49f9AhVu58kDHa0MDLUQMygDegUIARDkAQ..i&docid=3fHMGRd5ZnZh5M&w=1500&h=2000&q=new%20york&ved=2ahUKEwiKzfKh49f9AhVu58kDHa0MDLUQMygDegUIARDkAQ");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    font-size: 2rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+
+.main-image h1 {
+    margin: 0;
+    padding: 0;
+    line-height: 1;
+}
+
+.main-image p {
+    margin: 0;
+    padding-top: 0.5rem;
+}
+
+.section {
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.section img {
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 1rem;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.section h2 {
+    margin: 0;
+    font-size: 2rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin-bottom: 1rem;
+}
+
+.section p {
+    margin: 0;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    margin-bottom: 2rem;
+}
+
+.section ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin-bottom: 2rem;
+}
+
+.section li {
+    background-color: #ffcc00;
+    padding: 0.5rem 1rem;
+    border-radius: 1rem;
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.section li:hover {
+    background-color: #ff9933;
+}

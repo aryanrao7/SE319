@@ -1,0 +1,23 @@
+{
+    "cities": [
+      {
+        "name": "New York City",
+        "image": "images/newyork.jpg",
+        "description": "The Big Apple is a city that never sleeps and is known for its diversity, energy, and iconic landmarks.",
+        "activities": ["Statue of Liberty","Central Park","Empire State Building"]
+      },
+      {
+        "name": "Paris",
+        "image": "images/paris.jpg",
+        "description": "The City of Light is known for its stunning architecture, world-class museums, and gourmet cuisine.",
+        "activities": ["The Eiffel Tower", "The Louvre Museum", "Notre Dame Cathedral"]
+      },
+      {
+        "name": "Tokyo",
+        "image": "images/tokyo.jpg",
+        "description": "The bustling capital of Japan is a mix of old and new, where traditional culture meets modern technology.",
+        "activities": ["Sensō-ji Temple", "Tokyo Tower", "Imperial Palace"]
+      }
+    ]
+  }
+  

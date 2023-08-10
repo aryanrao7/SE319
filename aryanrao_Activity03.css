@@ -1,0 +1,22 @@
+h1 {
+    color: blue;
+    background-color: yellow;
+    border: 1px solid black;
+  }
+  
+p {
+    color: red;
+}
+
+.myh1class{
+    color: blue;
+    background-color: transparent;
+    border: 1px solid black;
+    font-family: 'Courier New', Courier, monospace;
+    }
+
+
+.mypclass{
+    color: black;
+    font-weight: bolder;
+ }
